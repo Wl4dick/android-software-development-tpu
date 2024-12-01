@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var notEdibleButton: Button
     private lateinit var correctCountTextView: TextView
     private lateinit var incorrectCountTextView: TextView
-
     private var correctCount = 0
     private var incorrectCount = 0
     private var currentItem : Item? = null
