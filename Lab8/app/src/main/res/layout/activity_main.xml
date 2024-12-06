@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/length_converter"
+        android:textSize="@dimen/heading"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/metre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin1"
+        android:text="@string/in_meters"
+        android:textSize="@dimen/default_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heading" />
+
+    <EditText
+        android:id="@+id/etMeters"
+        android:layout_width="@dimen/width_edit_text"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginStart="@dimen/top_margin2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/metre" />
+
+    <TextView
+        android:id="@+id/inches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin1"
+        android:text="@string/in_inches"
+        android:textSize="@dimen/default_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etMeters" />
+
+    <EditText
+        android:id="@+id/etInches"
+        android:layout_width="@dimen/width_edit_text"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginStart="@dimen/top_margin2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inches" />
+
+    <TextView
+        android:id="@+id/yards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin1"
+        android:text="@string/in_yards"
+        android:textSize="@dimen/default_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etInches" />
+
+    <EditText
+        android:id="@+id/etYards"
+        android:layout_width="@dimen/width_edit_text"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginStart="@dimen/top_margin2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yards" />
+
+    <TextView
+        android:id="@+id/feet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin1"
+        android:text="@string/in_inches"
+        android:textSize="@dimen/default_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etYards" />
+
+    <EditText
+        android:id="@+id/etFeet"
+        android:layout_width="@dimen/width_edit_text"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginStart="@dimen/top_margin2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
