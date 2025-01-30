@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lab9</string>
+    <string name="reg">Регистрация</string>
+    <string name="username">Имя пользователя:</string>
+    <string name="password">Пароль:</string>
+    <string name="country">Страна:</string>
+    <string name="phone_number">Номер телефона:</string>
+    <string name="show_phone_number">Показывать номер телефона:</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Уругвай</item>
+        <item>Беларусь</item>
+        <item>Монголия</item>
+        <item>Армения</item>
+        <item>Кыргызстан</item>
+    </string-array>
+    <string name="all_users">Всем пользователям</string>
+    <string name="only_friends">Только друзьям</string>
+    <string name="nobody">Никому</string>
+    <string name="agreement">Согласен с условиями использования</string>
+    <string name="enter_user_name">Введите имя пользователя</string>
+    <string name="enter_password">Введите пароль</string>
+    <string-array name="codes_numbers">
+        <item>+7</item>
+        <item>+598</item>
+        <item>+375</item>
+        <item>+976</item>
+        <item>+374</item>
+        <item>+996</item>
+    </string-array>
+    <string name="mask_phone_number">-(xxx)-xxx-xx-xx</string>
+    <string name="reg_now">Зарегистрироваться</string>
+    <string name="rejection">Отказаться</string>
+    <string name="author">Выполнил Щербаков Владислав</string>
+</resources>
