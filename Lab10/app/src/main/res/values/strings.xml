@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab10</string>
+    <string name="text">Текст сообщения:</string>
+    <string name="text_of_button">Текст кнопки действия:</string>
+    <string name="color_of_fon">Цвет фона (R, G, B):</string>
+    <string name="color_of_text">Цвет текста (R, G, B):</string>
+    <string name="color_of_button">Цвет кнопки действия (R, G, B):</string>
+    <string name="show">Показать</string>
+    <string name="author">Выполнил Щербаков Владислав</string>
+</resources>
