@@ -8,7 +8,7 @@
     <dimen name="margin_end">25dp</dimen>
     <dimen name="spinner_width">350dp</dimen>
     <dimen name="margin_top">15dp</dimen>
-    <dimen name="margin_start2">50dp</dimen>
+    <dimen name="margin_start2">60dp</dimen>
     <dimen name="margin_bottom">10dp</dimen>
     <dimen name="width_button">190dp</dimen>
     <dimen name="height_button">45dp</dimen>

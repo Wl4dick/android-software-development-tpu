@@ -111,7 +111,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/number" />
 
-    <EditText
+    <com.vicmikhailau.maskededittext.MaskedEditText
         android:id="@+id/edPhoneNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -120,8 +120,10 @@
         android:hint="@string/mask_phone_number"
         android:maxLines="1"
         android:textSize="@dimen/main_size"
+        app:mask="(###)-###-##-##"
         app:layout_constraintStart_toEndOf="@+id/code_number"
-        app:layout_constraintTop_toBottomOf="@+id/number" />
+        app:layout_constraintTop_toBottomOf="@+id/number"
+        tools:ignore="MissingClass" />
 
     <TextView
         android:id="@+id/show_number"
@@ -179,7 +181,7 @@
         android:id="@+id/regButton"
         android:layout_width="@dimen/width_button"
         android:layout_height="@dimen/height_button"
-        android:backgroundTint="@color/green"
+        android:backgroundTint="@color/grey"
         android:text="@string/reg_now"
         android:layout_marginStart="@dimen/margin_buttons"
         app:layout_constraintBottom_toBottomOf="parent"
