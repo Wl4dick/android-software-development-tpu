@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="product_image_size">80dp</dimen>
+    <dimen name="add_button_size">70dp</dimen>
+    <dimen name="title_height">40dp</dimen>
+    <dimen name="subhead_height">30dp</dimen>
+    <dimen name="title_and_subhead_width">190dp</dimen>
+    <dimen name="margin_top_bottom">8dp</dimen>
+    <dimen name="card_layout_width">420dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="width_for_layout">0dp</dimen>
+</resources>
