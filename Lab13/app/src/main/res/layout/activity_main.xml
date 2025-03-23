@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvCityInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plz_choose_a_city" />
+
+    <Button
+        android:id="@+id/btnSelectCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_a_city" />
+
+    <TextView
+        android:id="@+id/tvCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city"/>
+
+    <TextView
+        android:id="@+id/tvFedOkrName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fed_okrug"/>
+
+    <TextView
+        android:id="@+id/tvRegionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/region"/>
+
+    <TextView
+        android:id="@+id/tvMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mail"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time"/>
+
+    <TextView
+        android:id="@+id/tvPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/population"/>
+
+    <TextView
+        android:id="@+id/tvFounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/founded"/>
+
+    <Button
+        android:id="@+id/btnShowOnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_on_the_map" />
+</LinearLayout>

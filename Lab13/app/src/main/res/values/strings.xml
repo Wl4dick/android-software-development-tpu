@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lab13</string>
+    <string name="plz_choose_a_city">Выберите город</string>
+    <string name="choose_a_city">Выбрать город</string>
+    <string name="show_on_the_map">Показать на карте</string>
+    <string name="city">Город:</string>
+    <string name="fed_okrug">Федеральный округ:</string>
+    <string name="region">Регион</string>
+    <string name="mail">Почтовый индекс:</string>
+    <string name="time">Часовой пояс:</string>
+    <string name="population">Население:</string>
+    <string name="founded">Основан в:</string>
+    <string name="city_prefix">Город: %s</string>
+    <string name="fed_okrug_prefix">Федеральный округ: %s</string>
+    <string name="region_prefix">Регион: %s</string>
+    <string name="postal_code_prefix">Почтовый индекс: %s</string>
+    <string name="timezone_prefix">Часовой пояс: %s</string>
+    <string name="population_prefix">Население: %s</string>
+    <string name="founded_prefix">Год основания: %s</string>
+</resources>
