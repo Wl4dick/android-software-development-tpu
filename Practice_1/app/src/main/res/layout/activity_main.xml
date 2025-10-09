@@ -10,14 +10,37 @@
         android:id="@+id/gameTitle"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/title_height"
+        android:layout_marginTop="@dimen/margin_top_bottom"
+        android:layout_marginBottom="@dimen/margin_top_bottom"
         android:text="@string/game_name"
         android:textSize="@dimen/text_size_cats_and_mice"
-        android:textStyle="bold"
-        android:layout_marginBottom="@dimen/margin_top_bottom"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_start"
+        android:padding="@dimen/bottom_padding"
         android:text="@string/start_game"/>
+
+    <Button
+        android:id="@+id/levelsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_of_levels"
+        android:layout_marginBottom="@dimen/margin_top_bottom"/>
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/margin_top_bottom"/>
 </LinearLayout>

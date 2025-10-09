@@ -3,4 +3,12 @@
     <string name="game_name">Кошки-Мышки</string>
     <string name="start_game">Начать игру</string>
     <string name="toast_message">Игра начинается!</string>
+    <string name="level_name">Название уровня</string>
+    <string name="difficulty">Сложность</string>
+    <string name="background_music">Фоновая музыка</string>
+    <string name="player">Игрок</string>
+    <string name="player_name">Имя игрока</string>
+    <string name="list_of_levels">Список уровней</string>
+    <string name="settings">Настройки</string>
+
 </resources>

@@ -3,4 +3,6 @@
     <dimen name="title_height">40dp</dimen>
     <dimen name="margin_top_bottom">16dp</dimen>
     <dimen name="text_size_cats_and_mice">24sp</dimen>
+    <dimen name="text_size_start">20sp</dimen>
+    <dimen name="bottom_padding">16dp</dimen>
 </resources>

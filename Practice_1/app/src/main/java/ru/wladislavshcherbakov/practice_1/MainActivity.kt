@@ -11,12 +11,31 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        val startButton: Button = findViewById(R.id.startButton)
 
+        val startButton: Button = findViewById(R.id.startButton)
+        val levelsButton: Button = findViewById(R.id.levelsButton)
+        val settingsButton: Button = findViewById(R.id.settingsButton)
+
+        // Логика из первого задания
         startButton.setOnClickListener {
             Toast.makeText(this, getString(R.string.toast_message), Toast.LENGTH_SHORT).show()
+        }
+
+        // Переход к списку уровней
+        levelsButton.setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragmentContainer, LevelsFragment())
+                .addToBackStack(null)
+                .commit()
+        }
+
+        // Переход к экрану настроек
+        settingsButton.setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragmentContainer, SettingsFragment())
+                .addToBackStack(null)
+                .commit()
         }
     }
 }
