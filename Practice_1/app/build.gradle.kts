@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.wladislavshcherbakov.lab13"
+    namespace = "ru.wladislavshcherbakov.practice_1"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.wladislavshcherbakov.lab13"
+        applicationId = "ru.wladislavshcherbakov.practice_1"
         minSdk = 30
         targetSdk = 35
         versionCode = 1
