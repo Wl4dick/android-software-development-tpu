@@ -2,6 +2,6 @@
     <string name="app_name">Lab7</string>
     <string name="notEdibleString">Несъедобно</string>
     <string name="edibleString">Съедобно</string>
-    <string name="correct">Правильно: %i</string>
-    <string name="incorrect">Неправильно: %i</string>
+    <string name="correct">Правильно: %1$d</string>
+    <string name="incorrect">Неправильно: %1$d</string>
 </resources>

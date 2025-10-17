@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     private fun updateScores() {
-        correctCountTextView.text = "Правильно: $correctCount"
-        incorrectCountTextView.text = "Неправильно: $incorrectCount"
+        correctCountTextView.text = resources.getString(R.string.correct, correctCount)
+        incorrectCountTextView.text = resources.getString(R.string.incorrect, incorrectCount)
     }
 }
