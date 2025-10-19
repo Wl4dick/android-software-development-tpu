@@ -2,6 +2,7 @@ package ru.wladislavshcherbakov.practice_1
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
+import ru.wladislavshcherbakov.practice_1.levels_service.Level
 
 class SharedViewModelTest {
 

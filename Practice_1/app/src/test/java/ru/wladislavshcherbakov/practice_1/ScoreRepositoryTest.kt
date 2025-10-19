@@ -7,6 +7,9 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mockito.*
+import ru.wladislavshcherbakov.practice_1.score_service.ScoreRecord
+import ru.wladislavshcherbakov.practice_1.score_service.ScoreRecordDao
+import ru.wladislavshcherbakov.practice_1.score_service.ScoreRepository
 
 class ScoreRepositoryTest {
 

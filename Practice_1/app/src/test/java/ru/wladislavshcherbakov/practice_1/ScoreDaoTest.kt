@@ -10,6 +10,8 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
+import ru.wladislavshcherbakov.practice_1.score_service.ScoreRecord
+import ru.wladislavshcherbakov.practice_1.score_service.ScoreRecordDao
 
 @RunWith(AndroidJUnit4::class)
 class ScoreRecordDaoTest {

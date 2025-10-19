@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.kotlin.kapt")
+    id("kotlin-kapt")
 }
 
 android {
@@ -50,6 +50,13 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.mockito.core)
+    implementation("androidx.preference:preference-ktx:1.2.1")
+    implementation(libs.androidx.room.common.jvm)
+    implementation("androidx.test.ext:junit:1.2.1")
+    implementation("androidx.test.espresso:espresso-core:3.6.1")
+    implementation("androidx.test:rules:1.6.1")
+    implementation("androidx.test:runner:1.6.2")
+    kapt(libs.androidx.room.compiler)
 
     testImplementation(libs.junit)
     testImplementation(libs.androidx.junit)

@@ -3,14 +3,15 @@ package ru.wladislavshcherbakov.practice_1
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.launch
+import ru.wladislavshcherbakov.practice_1.game_active.GameFragment
+import ru.wladislavshcherbakov.practice_1.levels_service.LevelsFragment
+import ru.wladislavshcherbakov.practice_1.score_service.ScoreRecord
+import java.time.LocalDate
 
 class MainActivity : AppCompatActivity() {
     private lateinit var adapter: LeaderboardAdapter
@@ -23,9 +24,19 @@ class MainActivity : AppCompatActivity() {
         val levelsButton: Button = findViewById(R.id.levelsButton)
         val settingsButton: Button = findViewById(R.id.settingsButton)
 
+        findViewById<Button>(R.id.startButton).setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragmentContainer, GameFragment())
+                .addToBackStack(null)
+                .commit()
+        }
+
         // Логика из первого задания
         startButton.setOnClickListener {
-            Toast.makeText(this, getString(R.string.toast_message), Toast.LENGTH_SHORT).show()
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragmentContainer, GameFragment())
+                .addToBackStack(null)
+                .commit()
         }
 
         // Переход к списку уровней
@@ -59,7 +70,7 @@ class MainActivity : AppCompatActivity() {
                         ScoreRecord(
                             playerName = it.title,
                             score = it.id,
-                            date = java.time.LocalDate.now().toString().formatDate()
+                            date = LocalDate.now().toString().formatDate()
                         )
                     }
 

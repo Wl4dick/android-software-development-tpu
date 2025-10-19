@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import ru.wladislavshcherbakov.practice_1.score_service.ScoreRecord
 
 class LeaderboardAdapter : RecyclerView.Adapter<LeaderboardAdapter.VH>() {
 

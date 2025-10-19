@@ -14,6 +14,8 @@ class SettingsFragment : Fragment() {
 
     @SuppressLint("UseSwitchCompatOrMaterialCode")
     private lateinit var musicSwitch: Switch
+    @SuppressLint("UseSwitchCompatOrMaterialCode")
+    private lateinit var sfxSwitch: Switch
     private lateinit var playerNameEditText: EditText
 
     override fun onCreateView(
@@ -23,18 +25,24 @@ class SettingsFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_settings, container, false)
 
         musicSwitch = view.findViewById(R.id.musicSwitch)
+        sfxSwitch = view.findViewById(R.id.sfxSwitch)
         playerNameEditText = view.findViewById(R.id.playerNameEditText)
 
         val prefs = requireActivity().getSharedPreferences("game_prefs", Context.MODE_PRIVATE)
         val editor = prefs.edit()
 
         // Загружаем сохранённые значения
-        musicSwitch.isChecked = prefs.getBoolean("music_enabled", false)
+        musicSwitch.isChecked = prefs.getBoolean("music_enabled", true)
+        sfxSwitch.isChecked = prefs.getBoolean("sfx_enabled", true)
         playerNameEditText.setText(prefs.getString("player_name", "Игрок"))
 
         // Сохраняем при изменении
         musicSwitch.setOnCheckedChangeListener { _, isChecked ->
             editor.putBoolean("music_enabled", isChecked).apply()
+        }
+
+        sfxSwitch.setOnCheckedChangeListener { _, isChecked ->
+            editor.putBoolean("sfx_enabled", isChecked).apply()
         }
 
         playerNameEditText.setOnFocusChangeListener { _, hasFocus ->

@@ -11,5 +11,7 @@
     <string name="list_of_levels">Список уровней</string>
     <string name="settings">Настройки</string>
     <string name="load_top_five">Загрузить Топ-5</string>
+    <string name="sound_effects">Звуковые эффекты</string>
+
 
 </resources>

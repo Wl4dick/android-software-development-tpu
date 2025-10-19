@@ -15,6 +15,15 @@
         android:trackTint="@color/switch_track"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
+    <Switch
+        android:id="@+id/sfxSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sound_effects"
+        android:thumbTint="@color/switch_thumb"
+        android:trackTint="@color/switch_track"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
     <EditText
         android:id="@+id/playerNameEditText"
         android:layout_width="match_parent"
@@ -22,4 +31,5 @@
         android:autofillHints=""
         android:text="@string/player"
         tools:ignore="LabelFor,TextFields" />
+
 </LinearLayout>

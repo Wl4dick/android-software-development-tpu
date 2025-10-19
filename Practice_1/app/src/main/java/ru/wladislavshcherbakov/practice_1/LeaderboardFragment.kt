@@ -9,6 +9,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.launch
+import ru.wladislavshcherbakov.practice_1.score_service.ScoreRecord
 
 class LeaderboardFragment : Fragment(R.layout.fragment_leaderboard) {
 
