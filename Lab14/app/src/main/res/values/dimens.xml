@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="city_name_dimen_text">18sp</dimen>
+    <dimen name="region_name_dimen_text">14sp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="detail_text_size">16sp</dimen>
+    <dimen name="map_text_size">16sp</dimen>
+
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="item_padding">16dp</dimen>
+    <dimen name="text_margin_bottom_small">8dp</dimen>
+    <dimen name="text_margin_bottom_medium">16dp</dimen>
+    <dimen name="button_margin_bottom">16dp</dimen>
+
+    <dimen name="map_container_height">300dp</dimen>
+    <dimen name="divider_width">1dp</dimen>
+</resources>

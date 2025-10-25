@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lab14</string>
+
+    <string name="city_name">Город</string>
+    <string name="region_name">Регион</string>
+    <string name="federal_district">Федеральный округ</string>
+    <string name="postal_code">Почтовый индекс</string>
+    <string name="time_zone">Часовой пояс</string>
+    <string name="population">Население</string>
+    <string name="foundation_year">Основан в</string>
+
+    <string name="city_title">Город: %s</string>
+    <string name="federal_district_template">Федеральный округ: %s</string>
+    <string name="region_template">Регион: %s</string>
+    <string name="postal_code_template">Почтовый индекс: %s</string>
+    <string name="time_zone_template">Часовой пояс: %s</string>
+    <string name="population_template">Население: %d</string>
+    <string name="foundation_year_template">Основан в: %d году</string>
+
+    <string name="show_on_map">Показать на карте</string>
+    <string name="map_title">Карта</string>
+
+    <string name="map_coordinates">Широта: %.4f\nДолгота: %.4f</string>
+</resources>
