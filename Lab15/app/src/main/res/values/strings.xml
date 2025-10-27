@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab15</string>
+    <string name="add_item">Add Item</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="product_label">Product:</string>
+    <string name="quantity_label">Quantity:</string>
+    <string name="product_hint">Enter product name</string>
+    <string name="quantity_hint">Enter quantity</string>
+    <string name="quantity_format">Quantity: %s</string>
+</resources>
