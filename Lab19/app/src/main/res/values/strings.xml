@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab19</string>
+    <string name="get_contacts_button">Получить контакты</string>
+    <string name="permission_required_title">Требуется разрешение</string>
+    <string name="permission_required_message">Для отображения списка контактов приложению требуется разрешение на доступ к контактам. Без этого разрешения работа, увы, невозможна.</string>
+    <string name="permission_explanation">Приложению нужно разрешение на чтение контактов для отображения вашей телефонной книги</string>
+    <string name="open_settings">Открыть системные настройки</string>
+    <string name="no_thanks">Нет, спасибо</string>
+    <string name="success_title">Успех!</string>
+    <string name="contacts_retrieved">Получены контакты:</string>
+    <string name="grant_permission">Предоставить разрешение</string>
+    <string name="deny_permission">Запретить</string>
+    <string name="push_button_for_get_contacts">Нажмите кнопку для получения контактов</string>
+</resources>
