@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab18</string>
+    <string name="get_currency_rates">Получить курсы валют</string>
+    <string name="loading">Загрузка…</string>
+</resources>
