@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="button_margin">16dp</dimen>
+    <dimen name="text_margin">24dp</dimen>
+    <dimen name="image_height">250dp</dimen>
+    <dimen name="button_corner_radius">8dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="line_spacing_extra">4sp</dimen>
+    <dimen name="image_layout_height">420dp</dimen>
+</resources>

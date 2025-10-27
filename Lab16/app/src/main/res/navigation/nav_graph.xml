@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introFragment">
+
+    <!-- Intro Fragment -->
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="ru.wladislavshcherbakov.lab16.fragments.IntroFragment"
+        android:label="IntroFragment"
+        tools:layout="@layout/fragment_story">
+        <action
+            android:id="@+id/action_introFragment_to_hareFragment"
+            app:destination="@id/hareFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_finalBadFragment"
+            app:destination="@id/finalBadFragment" />
+    </fragment>
+
+    <!-- Hare Fragment -->
+    <fragment
+        android:id="@+id/hareFragment"
+        android:name="ru.wladislavshcherbakov.lab16.fragments.HareFragment"
+        android:label="HareFragment"
+        tools:layout="@layout/fragment_story">
+        <action
+            android:id="@+id/action_hareFragment_to_wolfFragment"
+            app:destination="@id/wolfFragment" />
+        <action
+            android:id="@+id/action_hareFragment_to_finalBadFragment"
+            app:destination="@id/finalBadFragment" />
+    </fragment>
+
+    <!-- Wolf Fragment -->
+    <fragment
+        android:id="@+id/wolfFragment"
+        android:name="ru.wladislavshcherbakov.lab16.fragments.WolfFragment"
+        android:label="WolfFragment"
+        tools:layout="@layout/fragment_story">
+        <action
+            android:id="@+id/action_wolfFragment_to_bearFragment"
+            app:destination="@id/bearFragment" />
+        <action
+            android:id="@+id/action_wolfFragment_to_finalBadFragment"
+            app:destination="@id/finalBadFragment" />
+    </fragment>
+
+    <!-- Bear Fragment -->
+    <fragment
+        android:id="@+id/bearFragment"
+        android:name="ru.wladislavshcherbakov.lab16.fragments.BearFragment"
+        android:label="BearFragment"
+        tools:layout="@layout/fragment_story">
+        <action
+            android:id="@+id/action_bearFragment_to_foxFragment"
+            app:destination="@id/foxFragment" />
+        <action
+            android:id="@+id/action_bearFragment_to_finalBadFragment"
+            app:destination="@id/finalBadFragment" />
+    </fragment>
+
+    <!-- Fox Fragment -->
+    <fragment
+        android:id="@+id/foxFragment"
+        android:name="ru.wladislavshcherbakov.lab16.fragments.FoxFragment"
+        android:label="FoxFragment"
+        tools:layout="@layout/fragment_story">
+        <action
+            android:id="@+id/action_foxFragment_to_finalBadFragment"
+            app:destination="@id/finalBadFragment" />
+        <action
+            android:id="@+id/action_foxFragment_to_finalGoodFragment"
+            app:destination="@id/finalGoodFragment" />
+    </fragment>
+
+    <!-- Final Bad Fragment -->
+    <fragment
+        android:id="@+id/finalBadFragment"
+        android:name="ru.wladislavshcherbakov.lab16.fragments.FinalBadFragment"
+        android:label="FinalBadFragment"
+        tools:layout="@layout/fragment_story">
+        <action
+            android:id="@+id/action_finalBadFragment_to_introFragment"
+            app:destination="@id/introFragment"
+            app:popUpTo="@id/introFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Final Good Fragment -->
+    <fragment
+        android:id="@+id/finalGoodFragment"
+        android:name="ru.wladislavshcherbakov.lab16.fragments.FinalGoodFragment"
+        android:label="FinalGoodFragment"
+        tools:layout="@layout/fragment_story">
+        <action
+            android:id="@+id/action_finalGoodFragment_to_introFragment"
+            app:destination="@id/introFragment"
+            app:popUpTo="@id/introFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

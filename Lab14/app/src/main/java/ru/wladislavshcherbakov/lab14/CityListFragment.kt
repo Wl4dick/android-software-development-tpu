@@ -156,6 +156,4 @@ class CityListFragment : Fragment() {
         super.onPause()
         scrollState = recyclerView.layoutManager?.onSaveInstanceState()
     }
-
-
 }
