@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Таймер</string>
+    <string name="interval">Интервал:</string>
+    <string name="minutes">Минуты</string>
+    <string name="seconds">Секунды</string>
+    <string name="start">Пуск</string>
+    <string name="stop">Стоп</string>
+    <string name="timer_ready">Таймер готов к запуску</string>
+    <string name="timer_notification_channel">Таймер</string>
+    <string name="timer_notification_title">Таймер</string>
+    <string name="notification_channel_description">Уведомления для работы таймера</string>
+</resources>
