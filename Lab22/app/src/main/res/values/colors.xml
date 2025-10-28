@@ -1,0 +1,5 @@
+<resources>
+    <color name="color_blue">#FF0000FF</color>
+    <color name="color_green">#FF00FF00</color>
+    <color name="color_black">#FF000000</color>
+</resources>

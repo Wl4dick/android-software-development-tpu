@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Найди точку!</string>
+    <string name="game_title">Игра «Найди точку!»</string>
+    <string name="status_searching">Точка загадана, ищите!</string>
+    <string name="status_found">Ура, точка найдена!</string>
+    <string name="distance_prefix">Текущее расстояние до точки: </string>
+    <string name="button_new_point">Загадать новую точку!</string>
+    <string name="button_settings">Открыть настройки программы</string>
+    <string name="settings_title">Настройки программы</string>
+    <string name="settings_description">Здесь вы можете управлять разрешениями приложения</string>
+    <string name="permissions_button">Управление разрешениями</string>
+    <string name="permissions_hint">Для изменения разрешений перейдите в настройки системы</string>
+</resources>

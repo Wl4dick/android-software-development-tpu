@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_standard"
+    android:background="#f5f5f5">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_title"
+        android:textSize="@dimen/text_size_large"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/margin_bottom_large" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status_searching"
+        android:textSize="@dimen/text_size_normal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/margin_bottom_medium"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:elevation="@dimen/elevation_small" />
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/distance_prefix"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginBottom="@dimen/margin_bottom_large"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnNewPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_new_point"
+        android:layout_marginBottom="@dimen/padding_small"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_settings"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+</LinearLayout>
