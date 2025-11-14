@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab23</string>
+    <string name="hint_search">Введите запрос...</string>
+    <string name="button_search">Поиск</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+</resources>
