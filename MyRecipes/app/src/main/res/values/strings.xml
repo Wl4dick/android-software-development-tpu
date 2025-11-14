@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Мои рецепты</string>
+    <string name="recipes_list">Список рецептов</string>
+    <string name="add_recipe">Добавить рецепт</string>
+    <string name="recipe_name">Название рецепта</string>
+    <string name="category">Категория</string>
+    <string name="instructions">Инструкция приготовления</string>
+    <string name="save">Сохранить</string>
+    <string name="recipe_details">Детали рецепта</string>
+    <string name="delete_recipe">Удалить рецепт</string>
+    <string name="delete_recipe_confirmation">Вы уверены, что хотите удалить этот рецепт?</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="cancel">Отмена</string>
+    <string name="recipe_deleted">Рецепт удален</string>
+    <string name="undo">Отменить</string>
+    <string name="recipe_saved">Рецепт успешно сохранен</string>
+
+    <!-- Категории -->
+    <string-array name="categories">
+        <item>Завтрак</item>
+        <item>Обед</item>
+        <item>Ужин</item>
+        <item>Десерт</item>
+        <item>Напитки</item>
+    </string-array>
+</resources>
