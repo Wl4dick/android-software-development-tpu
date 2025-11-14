@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab26</string>
+    <string name="permission_rationale">Для работы приложения необходим доступ к камере</string>
+    <string name="request_permission">Предоставить доступ</string>
+    <string name="default_color">#FFFFFF</string>
+    <string name="color_format">Цвет: %s</string>
+    <string name="photo_saved">Фото сохранено</string>
+    <string name="photo_error">Ошибка сохранения фото</string>
+</resources>
